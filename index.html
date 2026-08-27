@@ -163,6 +163,17 @@ p{font-size:15px;line-height:1.7;color:#3e444d}
   .page{box-shadow:none;margin:0;width:1280px;height:800px}
   @page{size: 338.67mm 211.67mm; margin:0}
 }
+  
+/* 한국어 단어 중간 줄바꿈 방지 */
+.section-title p,
+.statement p,
+.fit-item p,
+.evidence {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+</style>
 </style>
 </head>
 <body>
